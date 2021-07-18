@@ -1,0 +1,134 @@
+@media(max-width: 1200px){
+    .menu-toggle{
+        display: none;
+    }
+    .main-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .phone{
+        top: 305px;
+    }
+    .page-title{
+        padding-top: 130px;
+    }
+    .gen-1 img{
+        width: 460px;
+        height: 640px;
+    }
+}
+
+@media(max-width: 991px){
+    .solutions{
+        background-size: 843px;
+    }
+    .solutions .page-title{
+        color: #fff;
+        font-size: 3.42rem;
+        line-height: 3.42rem;
+        /* width: 540px; */
+        margin-bottom: 20px;
+        padding-top: 50px;
+    }
+    .solutions .page-text{
+        width: 520px;
+    }
+    .solutions::after{
+        display: none;
+    }
+    .solutions .row{
+        text-align: center;
+
+    }
+    .first-col{
+        text-align: center;
+        padding-left: 10px;
+        margin: 0 auto;
+        width: 68%;
+    }
+    .bg{
+        background-size: cover;
+    }
+    .phone{
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px){
+    .solutions{
+        position: relative;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    .main-nav{
+        display: none;
+    }
+    .head{
+        display: block;
+        text-align: start;
+        font-size: 24px;
+        color: #fff;
+        margin: 32px 0;
+    }
+    .head:not(:first-child){
+        margin: 0 auto;
+    }
+    #navBar{
+        position: absolute;
+        top: 100px;
+        bottom: 96px;
+        right: 24px;
+        left: 24px;
+        z-index: 2;
+    }
+    .main-header .row{
+        justify-content: space-between;
+    }
+    .header .on::after{
+        margin-top: 50px;
+        content: '';
+        position: absolute;
+        top: 96px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 300px;
+        background-color: #1d1c1e;
+        z-index: 1;
+    }
+    .header-bar{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .main-header .container{
+        padding: 0 24px;
+    }
+    .menu-toggle{
+        position: absolute;
+        right: 4px;
+        display: inline-block;
+        margin:0 ;
+        border: transparent;
+        background-color: transparent;
+    }
+    .menu-toggle.close{
+        display: none;
+    }
+    .main-header.on .close{
+        display: block;
+    }
+    .main-header.on.open{
+        display: none;
+    }
+
+}
+
+@media(max-width: 565px) {}
+
+@media(max-width:480){}
