@@ -59,7 +59,7 @@
 }
 
 @media(max-width: 768px){
-    .solutions{
+    /* .solutions{
         position: relative;
     }
     .menu-toggle{
@@ -125,7 +125,7 @@
     }
     .main-header.on.open{
         display: none;
-    }
+    } */
 
 }
 
